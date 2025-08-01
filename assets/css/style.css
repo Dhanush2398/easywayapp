@@ -15659,12 +15659,12 @@ td.fc-header-center {
 }
 
 .box-item {
-  background: #ffffff;
+  background: #f1f9f8;
   border-radius: 18px;
   padding: 24px 16px;
   text-align: center;
-  border: 1.8px solid #d3e3ff;
-  box-shadow: 0 6px 12px rgba(72, 127, 255, 0.08);
+  border: 1.8px solid #d0ebe8;
+  box-shadow: 0 6px 12px rgba(32, 113, 120, 0.08);
   transition: all 0.35s ease;
   position: relative;
   overflow: hidden;
@@ -15678,7 +15678,7 @@ td.fc-header-center {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, #e9f0ff 10%, transparent 70%);
+  background: radial-gradient(circle at center, #daf1ef 10%, transparent 70%);
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 0;
@@ -15690,34 +15690,34 @@ td.fc-header-center {
 
 .box-item:hover {
   transform: translateY(-8px) scale(1.025);
-  border-color: #487FFF;
-  box-shadow: 0 12px 24px rgba(72, 127, 255, 0.18);
+  border-color: #207178;
+  box-shadow: 0 12px 24px rgba(32, 113, 120, 0.18);
 }
 
 .box-icon iconify-icon {
   font-size: 2.7rem;
-  color: #487FFF;
+  color: #207178;
   margin-bottom: 14px;
   display: inline-block;
   padding: 14px;
   border-radius: 18px;
-  background: linear-gradient(145deg, #f1f6ff, #d6e7ff);
-  box-shadow: inset 2px 2px 4px #c4d9ff, inset -2px -2px 4px #ffffff;
+  background: linear-gradient(145deg, #e6f4f3, #cce8e5);
+  box-shadow: inset 2px 2px 4px #c1e1df, inset -2px -2px 4px #ffffff;
   transition: all 0.3s ease;
   position: relative;
   z-index: 1;
 }
 
 .box-item:hover .box-icon iconify-icon {
-  background: linear-gradient(145deg, #d1e4ff, #e6efff);
+  background: linear-gradient(145deg, #b8dedb, #dff4f2);
   transform: scale(1.15);
-  box-shadow: 0 0 10px rgba(72, 127, 255, 0.4);
+  box-shadow: 0 0 10px rgba(32, 113, 120, 0.4);
 }
 
 .box-label {
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1f3b44;
   margin-top: 8px;
   letter-spacing: 0.25px;
   position: relative;
