@@ -1723,7 +1723,7 @@
     }
 
     // Call the function for each chart with the desired ID and color
-    createWidgetChart('new-user-chart', '#487fff');
+    createWidgetChart('new-user-chart', '#D93222');
     createWidgetChart('active-user-chart', '#45b369');
     createWidgetChart('total-sales-chart', '#f4941e');
     createWidgetChart('conversion-user-chart', '#8252e9');
@@ -1898,7 +1898,7 @@
     },
     stroke: {
     curve: 'smooth',
-    colors: ['#487FFF'], // Specify the line color here
+    colors: ['#D93222'], // Specify the line color here
     width: 3
     },
     markers: {
@@ -1962,7 +1962,7 @@
         },
         fill: {
         type: 'solid',
-        color: '#487FFF40',
+        color: '#D9322240',
         // gradient: {
         //   colorFrom: '#D8E3F0',
         //   // colorTo: '#BED1E6',
@@ -2041,12 +2041,12 @@
     },
     fill: {
         type: 'gradient',
-        colors: ['#487FFF'], // Set the starting color (top color) here
+        colors: ['#D93222'], // Set the starting color (top color) here
         gradient: {
             shade: 'light', // Gradient shading type
             type: 'vertical',  // Gradient direction (vertical)
             shadeIntensity: 0.5, // Intensity of the gradient shading
-            gradientToColors: ['#487FFF'], // Bottom gradient color (with transparency)
+            gradientToColors: ['#D93222'], // Bottom gradient color (with transparency)
             inverseColors: false, // Do not invert colors
             opacityFrom: 1, // Starting opacity
             opacityTo: 1,  // Ending opacity
@@ -2086,7 +2086,7 @@
     // ================================ Users Overview Donut chart Start ================================ 
     var options = { 
     series: [500, 500, 500],
-    colors: ['#FF9F29', '#487FFF', '#E4F1FF'],
+    colors: ['#FF9F29', '#D93222', '#E4F1FF'],
     labels: ['Active', 'New', 'Total'] ,
     legend: {
         show: false 
@@ -2253,11 +2253,11 @@
         series: {
             regions: [{
                 values: {
-                    "US": '#487FFF ',
-                    "SA": '#487FFF',
-                    "AU": '#487FFF',
-                    "CN": '#487FFF',
-                    "GB": '#487FFF',
+                    "US": '#D93222 ',
+                    "SA": '#D93222',
+                    "AU": '#D93222',
+                    "CN": '#D93222',
+                    "GB": '#D93222',
                 },
                 attribute: 'fill'
             }]
@@ -2445,7 +2445,7 @@
                 shade: 'dark',
                 type: 'horizontal',
                 shadeIntensity: 0.5,
-                gradientToColors: ['#487FFF'],
+                gradientToColors: ['#D93222'],
                 inverseColors: true,
                 opacityFrom: 1,
                 opacityTo: 1,
