@@ -14606,7 +14606,7 @@ td.fc-header-center {
 /* === navbar css start === */
 .navbar-header {
   height: 5.5rem;
-  background-color: #fffc68;
+  background-color: #FFEB3B;
   position: sticky;
   top: 0;
   padding: 1rem 1.5rem;
@@ -14880,7 +14880,7 @@ td.fc-header-center {
   padding: 0.75rem 1rem;
   overflow-y: auto;
   border-inline-end: 1px solid var(--neutral-200);
-  background-color: #fffc68;
+  background-color: #FFEB3B;
 }
 
 .sidebar-menu-area:hover::-webkit-scrollbar-thumb {
@@ -15645,7 +15645,7 @@ td.fc-header-center {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 24px;
-  background-color: #FFFC68; 
+  background-color:#FFEB3B; 
 }
 
 @media (min-width: 768px) {
