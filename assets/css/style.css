@@ -14606,7 +14606,7 @@ td.fc-header-center {
 /* === navbar css start === */
 .navbar-header {
   height: 5.5rem;
-  background-color: #FFEB3B;
+  background-color: #40A579;
   position: sticky;
   top: 0;
   padding: 1rem 1.5rem;
@@ -14616,7 +14616,7 @@ td.fc-header-center {
 .sidebar-toggle,
 .sidebar-mobile-toggle {
   line-height: 1.2;
-  color:#D93222;
+  color:#fff;
 }
 
 .sidebar-toggle .icon,
@@ -14880,7 +14880,7 @@ td.fc-header-center {
   padding: 0.75rem 1rem;
   overflow-y: auto;
   border-inline-end: 1px solid var(--neutral-200);
-  background-color: #FFEB3B;
+  background-color: #40A579;
 }
 
 .sidebar-menu-area:hover::-webkit-scrollbar-thumb {
@@ -14939,7 +14939,7 @@ td.fc-header-center {
   }
 }
 .sidebar-menu li.dropdown.open > a, .sidebar-menu li.dropdown.dropdown-open > a {
-  background-color: #D93222;
+  background-color: #9DDE8A;
   color: #fff;
 }
 
@@ -14958,7 +14958,7 @@ td.fc-header-center {
 }
 
 .sidebar-menu li > a.active-page {
-  background-color: #D93222;
+  background-color: #9DDE8A;
   color: #fff;
 }
 
@@ -14971,7 +14971,7 @@ td.fc-header-center {
   font-weight: 500;
   display: flex;
   align-items: center;
-  color: var(--text-secondary-light);
+  color: #fff;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -14986,7 +14986,7 @@ td.fc-header-center {
   }
 }
 .sidebar-menu li a:hover {
-  color: #D93222;
+  color: #9DDE8A;
 }
 
 .sidebar-menu li a .menu-icon {
@@ -15033,7 +15033,7 @@ td.fc-header-center {
 }
 
 .sidebar-menu .sidebar-menu-group-title {
-  color: var(--neutral-500);
+  color: #000;
   font-weight: 600;
   margin-block: 0.5rem;
   font-size: 0.875rem;
@@ -15092,6 +15092,7 @@ td.fc-header-center {
   padding: 1.375rem 1.5rem;
   background-color: var(--white);
   margin-block-start: auto;
+  color: #006038;
 }
 
 /* === footer css end === */
@@ -15645,7 +15646,7 @@ td.fc-header-center {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 24px;
-  background-color:#FFEB3B; 
+  background-color:#E5FF94; 
 }
 
 @media (min-width: 768px) {
@@ -15741,6 +15742,11 @@ td.fc-header-center {
   z-index: 0;
 }
 
+@media (max-width: 426px) {
+  .box-item {
+    height: 200px;
+  }
+}
 
 .box-item::before {
   content: "";
